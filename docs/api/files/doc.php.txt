@@ -1,0 +1,35 @@
+<?php
+/**
+ * this is file doc
+ */
+
+namespace NS1;
+
+/**
+ * example
+ * 
+ * @author Administrator
+ * 
+ * @package 
+ */
+class Foo
+{
+	/**
+	 * this is var
+	 * 
+	 * @var unknown
+	 */
+	private $var;
+	
+	/**
+	 * this is func1
+	 * 
+	 * @param string $str
+	 * 
+	 * @return void
+	 */
+	public function func1($str)
+	{
+		
+	}
+}

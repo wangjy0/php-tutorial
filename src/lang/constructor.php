@@ -1,0 +1,35 @@
+<?php
+
+class BaseClass
+{
+
+    public function __construct()
+    {
+        echo "In BaseClass constructor\n";
+    }
+}
+
+class SubClass extends BaseClass
+{
+    //overwrite BaseClass's constructor
+    public function __construct()
+    {
+        //parent::__construct();
+        echo "In SubClass constructor\n";
+    }
+}
+
+class OtherSubClass extends BaseClass
+{
+    // inherits BaseClass's constructor
+}
+
+// In BaseClass constructor
+$obj = new BaseClass();
+
+// In BaseClass constructor
+// In SubClass constructor
+$obj = new SubClass();
+
+// In BaseClass constructor
+$obj = new OtherSubClass();
