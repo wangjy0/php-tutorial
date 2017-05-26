@@ -1,3 +1,4 @@
 {
-	"name" : "php-tutorial"
+	"name" : "php-tutorial",
+	"type" : "project"
 }
