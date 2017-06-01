@@ -14,9 +14,9 @@ $result = $stmt->fetch(PDO::FETCH_ASSOC);
 print_r($result);
 echo "\n";
 
-echo 'PDO::FETCH_BOTH: ';
-echo "Return next row as an array indexed by both column name and number\n";
-$result = $stmt->fetch(PDO::FETCH_BOTH);
+echo 'PDO::FETCH_NUM: ';
+echo "Return next row as an array indexed by number\n";
+$result = $stmt->fetch(PDO::FETCH_NUM);
 print_r($result);
 echo "\n";
 
