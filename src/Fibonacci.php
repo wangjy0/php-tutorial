@@ -50,7 +50,7 @@ class Fibonacci implements Iterator
 $seq = new Fibonacci();
 $i = 0;
 foreach ($seq as $f) {
-    echo "$f ";
-    if ($i ++ === 15)
+    echo $f . PHP_EOL;
+    if ($i ++ === 200)
         break;
 }
