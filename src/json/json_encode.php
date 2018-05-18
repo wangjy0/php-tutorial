@@ -24,3 +24,5 @@ $d = array('foo' => 'bar', 'baz' => 'long');
 
 echo "Associative array always output as object: ", json_encode($d), "\n";
 echo "Associative array always output as object: ", json_encode($d, JSON_FORCE_OBJECT), "\n\n";
+
+echo json_encode([['sc_id'=> 1,'rate'=> 0.1],['sc_id'=> 2,'rate'=> 0.2]]);
