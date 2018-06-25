@@ -2,7 +2,7 @@
 $ch = curl_init();
 
 $url = 'http://httpbin.org/post';
-$cfile = curl_file_create('1.jpg');
+$cfile = curl_file_create(__DIR__ . '/1.jpg');
 $data = [
     'foo' => 'bar',
     'file1'=> $cfile,
