@@ -84,6 +84,8 @@ $newspaper->attach($allen);
 $newspaper->attach($jim);
 $newspaper->attach($linda);
 
+$newspaper->breakOutNews('Trump is dead!');
+
 // remove reader
 $newspaper->detach($linda);
 
