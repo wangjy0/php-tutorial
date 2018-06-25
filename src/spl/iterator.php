@@ -71,7 +71,11 @@ class FileTypeFilterIterator1 extends RecursiveFilterIterator
 
     public function accept()
     {
-        return in_array(strtolower(pathinfo($this->current()->getFilename(), PATHINFO_EXTENSION)), $this->FILTERS);
+        return  $this->hasChildren() || in_array(strtolower(pathinfo($this->current()->getFilename(), PATHINFO_EXTENSION)), $this->FILTERS);
+    }
+    
+    public function getChildren() {
+        return new self($this->getInnerIterator()->getChildren(), $this->FILTERS);
     }
 }
 $ir = new RecursiveDirectoryIterator($dir);
@@ -107,5 +111,5 @@ $ir = new RecursiveDirectoryIterator($dir);
 $ir = new ParentIterator($ir);
 $ir = new RecursiveIteratorIterator($ir, RecursiveIteratorIterator::CHILD_FIRST);
 foreach ($ir as $v){
-//     print ($v->getPathname()) . PHP_EOL;
+    print ($v->getPathname()) . PHP_EOL;
 }
