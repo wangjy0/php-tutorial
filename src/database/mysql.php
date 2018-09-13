@@ -1,13 +1,12 @@
 <?php
-
-error_reporting(0);
 set_time_limit(0);
-$conn = array();
-for ($i = 0; $i < 1000; ++$i) {
-    $conn[$i] = mysql_connect('localhost:3306', 'root', '123456', true);
-    mysql_select_db('test');
-    $result = mysql_query('select version()', $conn[$i]);
+
+for ($i = 0; $i < 10; ++$i) {
+    $mysql = new mysqli('localhost', 'root', '123456','test',3306);
+
+    $result = $mysql->query('select version()');
+    var_dump($result->fetch_assoc());
     //usleep(500);
     //sleep(1);
-    //mysql_close($conn[$i]);
+    $mysql->close();
 }
