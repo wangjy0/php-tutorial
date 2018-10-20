@@ -3,12 +3,13 @@
 	"type" : "project",
 	"require": {
 		"php-amqplib/php-amqplib": "^2.7",
-		"crell/api-problem": "^2.0"
+		"crell/api-problem": "^2.0",
+		"dompdf/dompdf": "^0.8.2"
 	},
 	"repositories": {
 		"packagist": {
 			"type": "composer",
-			"url": "https://packagist.phpcomposer.com"
+			"url": "https://packagist.laravel-china.org"
 		}
 	}
 }
