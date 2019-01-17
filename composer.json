@@ -7,7 +7,9 @@
 		"ext-pdo": "*",
 		"php-amqplib/php-amqplib": "^2.7",
 		"crell/api-problem": "^2.0",
-		"dompdf/dompdf": "^0.8.2"
+		"dompdf/dompdf": "^0.8.2",
+		"intervention/image": "2.2.*",
+		"danielstjules/stringy": "^3.1"
 	},
 	"repositories": {
 		"packagist": {
