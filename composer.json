@@ -1,5 +1,5 @@
 {
-	"name" : "php-tutorial",
+	"name" : "php/tutorial",
 	"license": "MIT",
 	"type" : "project",
 	"require": {
@@ -10,7 +10,8 @@
 		"crell/api-problem": "^2.0",
 		"dompdf/dompdf": "^0.8.2",
 		"intervention/image": "2.2.*",
-		"danielstjules/stringy": "^3.1"
+		"danielstjules/stringy": "^3.1",
+		"mpdf/mpdf": "^7.1"
 	},
 	"repositories": {
 		"packagist": {
