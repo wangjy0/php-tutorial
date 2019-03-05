@@ -1,14 +1,14 @@
 <?php
 
-echo time().'<br>';
+echo time().PHP_EOL;
 
-echo microtime(true).'<br>';
+echo microtime(true).PHP_EOL;
 
-echo date('Y-m-d H:i:s').'<br>';
+echo date('Y-m-d H:i:s').PHP_EOL;
 
 $date = date('Y-m-d H:i:00', strtotime('+1 minute'));
 
-echo $date.'<br>';
+echo $date.PHP_EOL;
 
 $timestamp = strtotime($date);
 
