@@ -15,7 +15,8 @@
 		"danielstjules/stringy": "^3.1",
 		"mpdf/mpdf": "^7.1",
 		"cache/cache": "^1.0",
-		"symfony/polyfill": "^1.10"
+		"symfony/polyfill": "^1.10",
+		"mashape/unirest-php": "^3.0"
 	},
 	"repositories": {
 		"packagist": {
