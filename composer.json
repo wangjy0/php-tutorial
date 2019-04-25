@@ -8,6 +8,7 @@
 		"ext-couchbase": "*",
 		"ext-memcache": "*",
 		"ext-redis": "*",
+		"ext-fileinfo": "*",
 		"php-amqplib/php-amqplib": "^2.7",
 		"crell/api-problem": "^2.0",
 		"dompdf/dompdf": "^0.8.2",
