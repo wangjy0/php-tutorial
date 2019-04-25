@@ -9,6 +9,7 @@
 		"ext-memcache": "*",
 		"ext-redis": "*",
 		"ext-fileinfo": "*",
+		"ext-fann": "*",
 		"php-amqplib/php-amqplib": "^2.7",
 		"crell/api-problem": "^2.0",
 		"dompdf/dompdf": "^0.8.2",
@@ -17,7 +18,8 @@
 		"mpdf/mpdf": "^7.1",
 		"cache/cache": "^1.0",
 		"symfony/polyfill": "^1.10",
-		"mashape/unirest-php": "^3.0"
+		"mashape/unirest-php": "^3.0",
+		"ralouphie/mimey": "^2.1"
 	},
 	"repositories": {
 		"packagist": {
