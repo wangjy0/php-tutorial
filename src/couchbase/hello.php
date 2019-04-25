@@ -3,14 +3,17 @@
  *
  */
 
+use Couchbase\Cluster;
+use Couchbase\PasswordAuthenticator;
+
 $bucketName = "s1";
 
 // Establish username and password for bucket-access
-$authenticator = new \Couchbase\PasswordAuthenticator();
+$authenticator = new PasswordAuthenticator();
 $authenticator->username('test1')->password('123456');
 
 // Connect to Couchbase Server
-$cluster = new \Couchbase\Cluster("couchbase://127.0.0.1");
+$cluster = new Cluster("couchbase://127.0.0.1");
 
 // Authenticate, then open bucket
 $cluster->authenticate($authenticator);
