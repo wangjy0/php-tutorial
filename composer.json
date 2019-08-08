@@ -6,13 +6,6 @@
 		"php": ">=7.0",
 		"ext-curl": "*",
 		"ext-pdo": "*",
-		"ext-couchbase": "*",
-		"ext-memcache": "*",
-		"ext-redis": "*",
-		"ext-fileinfo": "*",
-		"ext-fann": "*",
-		"ext-mongo": "*",
-		"ext-msgpack": "*",
 		"php-amqplib/php-amqplib": "^2.7",
 		"crell/api-problem": "^2.0",
 		"dompdf/dompdf": "^0.8.2",
@@ -23,11 +16,6 @@
 		"symfony/polyfill": "^1.10",
 		"mashape/unirest-php": "^3.0",
 		"ralouphie/mimey": "^2.1",
-	},
-	"repositories": {
-		"packagist": {
-			"type": "composer",
-			"url": "https://packagist.laravel-china.org"
-		}
+		"imagecow/imagecow": "^2.4"
 	}
 }
