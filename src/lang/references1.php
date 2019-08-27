@@ -17,7 +17,7 @@ function chage2($b){
     $b->var1 = 20;
 }
 
-chage2($c);
+chage2($a);
 
 var_dump($a);
 
