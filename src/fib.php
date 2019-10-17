@@ -38,5 +38,5 @@ function fib2($n)
     return $y;
 }
 
-print fib1(30) . PHP_EOL;
-print fib2(30) . PHP_EOL;
+print fib1(100) . PHP_EOL;
+print fib2(100) . PHP_EOL;
