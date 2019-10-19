@@ -4,12 +4,13 @@ class Demo
 {
 
     public function __construct()
-    {}
+    {
+    }
 
     /**
      *
-     * @param int $var1            
-     * @param int $var2            
+     * @param int $var1
+     * @param int $var2
      *
      * @return int
      */

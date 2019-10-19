@@ -14,6 +14,7 @@
 		"mashape/unirest-php": "^3.0",
 		"ralouphie/mimey": "^2.1",
 		"imagecow/imagecow": "^2.4",
-		"mongodb/mongodb": "^1.4"
+		"mongodb/mongodb": "^1.4",
+		"jsonrpc/jsonrpc": "1.0.*"
 	}
 }

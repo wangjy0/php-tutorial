@@ -9,8 +9,7 @@ $a = 0;
 try {
     $var->method(); // Throws an Error object in PHP 7.
 } catch (Error $e) {
-    // Handle error
-    print $e->getMessage() . PHP_EOL;
+    //print $e->getMessage() . PHP_EOL;
 }
 
 function add(int $left, int $right)
@@ -21,7 +20,7 @@ function add(int $left, int $right)
 try {
     $value = add('left', 'right');
 } catch (TypeError $e) {
-    print $e->getMessage() . PHP_EOL;
+    //print $e->getMessage() . PHP_EOL;
 }
 
 try {
@@ -33,5 +32,5 @@ try {
 try {
     $value = 1 % 0;
 } catch (DivisionByZeroError $e) {
-    print $e->getMessage() . PHP_EOL;
+    //print $e->getMessage() . PHP_EOL;
 }
