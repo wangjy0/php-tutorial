@@ -2,7 +2,7 @@ FROM alpine:3.10
 
 LABEL maintainer="ma.alex@qq.com"
 
-ENV TIME_ZONE Asiz/Shanghai
+ENV TIME_ZONE Asia/Shanghai
 
 # 修改镜像源
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
