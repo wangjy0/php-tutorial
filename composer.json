@@ -16,6 +16,7 @@
 		"imagecow/imagecow": "^2.4",
 		"mongodb/mongodb": "^1.4",
 		"jsonrpc/jsonrpc": "1.0.*",
-		"php-ai/php-ml": "^0.8.0"
+		"php-ai/php-ml": "^0.8.0",
+		"lavary/crunz": "^2.1"
 	}
 }
