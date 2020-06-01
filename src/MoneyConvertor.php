@@ -1,5 +1,4 @@
 <?php
-
 /** 
  * MoneyConvertor Library For PHP
  * 人民币大小写转换类
