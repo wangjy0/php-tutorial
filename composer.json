@@ -1,6 +1,6 @@
 {
 	"name" : "php/tutorial",
-	"license": "MIT",
+	"license": "proprietary",
 	"type" : "project",
 	"require": {
 		"php-amqplib/php-amqplib": "^2.7",
@@ -17,6 +17,7 @@
 		"mongodb/mongodb": "^1.4",
 		"jsonrpc/jsonrpc": "1.0.*",
 		"php-ai/php-ml": "^0.8.0",
-		"lavary/crunz": "^2.1"
+		"lavary/crunz": "^2.1",
+		"composer/ca-bundle": "^1.2"
 	}
 }
